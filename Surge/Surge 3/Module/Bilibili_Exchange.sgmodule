@@ -1,0 +1,6 @@
+#!name=Bilibili Auto Exchange
+#!desc=自动兑换漫读券.
+#!system=ios
+
+[Script]
+cron "5,15,25 0 12 * * *" script-path=https://raw.githubusercontent.com/Xummer/Script/master/Bilibili-DailyBonus/ExchangePoints.js, wake-system=1, timeout=60
